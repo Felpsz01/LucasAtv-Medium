@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 * {
   margin: 0;
@@ -61,7 +61,6 @@ main .mgRight {
   right: 0px;
 }
 
-
 main p {
   color: white;
   font-size: 22px;
@@ -99,6 +98,7 @@ main h2 {
 
 main button {
   position: absolute;
+  cursor: pointer;
   font-size: 26px;
   font-weight: 900;
   width: 240px;
@@ -143,7 +143,7 @@ body .inter1 {
 }
 
 .inter1 h1 {
-font-weight: 100;
+  font-weight: 100;
 }
 
 section .aboutText {
@@ -153,7 +153,7 @@ section .aboutText {
   margin-top: 25px;
 }
 
-section .aboutText p{
+section .aboutText p {
   font-weight: 200;
   font-size: 33px;
   color: white;
@@ -162,11 +162,11 @@ section .aboutText p{
   align-items: center;
 }
 
-section .aboutText img{
+section .aboutText img {
   width: 450px;
 }
 
-section .Testimonials h1{
+section .Testimonials h1 {
   color: white;
   margin-top: 350px;
   font-size: 60px;
@@ -174,33 +174,34 @@ section .Testimonials h1{
   justify-content: center;
 }
 
-section .Testimonials p{
+section .Testimonials p {
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center; 
+  text-align: center;
   margin-top: 20px;
   font-weight: initial;
   font-size: 26px;
 }
 
-section .Testimonials .testImg1{
-  background-image:url(/src/assets/img/testimonialImg1.svg);
+section .Testimonials .testImg1 {
+  background-image: url(/src/assets/img/testimonialImg1.svg);
   background-repeat: no-repeat;
   background-color: #181818;
   width: 780px;
   height: 310px;
 }
 
-section .Testimonials .testImg1 h1{
+section .Testimonials .testImg1 h1 {
   font-size: 48px;
   display: flex;
+  margin-top: 15px;
   justify-content: end;
   padding-right: 20px;
 }
 
-section .Testimonials .testImg1 p{
+section .Testimonials .testImg1 p {
   color: white;
   display: flex;
   justify-content: end;
@@ -208,56 +209,217 @@ section .Testimonials .testImg1 p{
   text-align: left;
   font-size: 18px;
   font-weight: initial;
-  
 }
 
-section .Testimonials .testImg1 a{
+section .Testimonials .testImg1 a {
   color: white;
   text-decoration: none;
   display: flex;
   justify-content: end;
-  margin-top: 50px;
-  padding-right: 329px; 
+  padding-right: 329px;
+  margin-top: 30px;
   background-image: url(/src/assets/img/seeFull.svg);
   background-repeat: no-repeat;
   background-position-x: 460px;
 }
 
+section .Testimonials .testImg3 {
+  background-image: url(/src/assets/img/testimonialImg3.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #181818;
+  width: 780px;
+  height: 310px;
+}
 
-section .Testimonials .testImg2{
-  background-image:url(/src/assets/img/testimonialImg2.svg);
+section .Testimonials .testImg3 h1 {
+  font-size: 44px;
+  display: flex;
+  justify-content: start;
+  padding-left: 45px;
+  margin-top: 15px;
+}
+
+section .Testimonials .testImg3 p {
+  color: white;
+  display: flex;
+  justify-content: start;
+  padding-left: 45px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: initial;
+}
+
+section .Testimonials .testImg3 a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: start;
+  padding-left: 45px;
+  margin-top: 50px;
+  background-image: url(/src/assets/img/seeFull.svg);
+  background-repeat: no-repeat;
+  background-position-x: 150px;
+}
+
+section .CardsTestimonials {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 100px;
+  margin-left: 5%;
+}
+
+section .Testimonials .testImg2 {
+  background-image: url(/src/assets/img/testimonialImg2.svg);
+  position: absolute;
+  right: 5%;
+  margin-top: -650px;
   background-repeat: no-repeat;
   background-color: #181818;
   width: 300px;
-  height: 780px;
+  height: 650px;
 }
 
-section .Testimonials .testImg2 h1{
+section .Testimonials .testImg2 h1 {
   font-size: 40px;
   display: flex;
-  justify-content: end;
-  padding-right: 20px;
+  margin-top: 315px;
+  justify-content: start;
+  padding-left: 15px;
 }
 
-section .Testimonials .testImg2 p{
+section .Testimonials .testImg2 p {
   color: white;
   display: flex;
-  justify-content: end;
-  padding-right: 135px;
+  justify-content: start;
+  padding-left: 15px;
   text-align: left;
-  font-size: 18px;
-  font-weight: initial;
-  
+  font-size: 15px;
+  font-weight: 100;
 }
 
-section .Testimonials .testImg2 a{
+section .Testimonials .testImg2 a {
   color: white;
   text-decoration: none;
   display: flex;
-  justify-content: end;
-  margin-top: 50px;
-  padding-right: 329px; 
+  justify-content: start;
+  padding-left: 15px;
+  margin-top: 35px;
   background-image: url(/src/assets/img/seeFull.svg);
   background-repeat: no-repeat;
-  background-position-x: 460px;
+  background-position-x: 120px;
+}
+
+section .seeAll button {
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #000;
+  border: 1.5px solid #ffffff;
+}
+
+.seeAll {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.endSect {
+  padding-top: 25%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 5%;
+}
+
+.endSect h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+  font-weight: 400;
+}
+
+form input {
+  background-color: transparent;
+  display: flex;
+  border: none;
+  border-bottom: 1.5px solid white;
+  flex-direction: column;
+  width: 40rem;
+  height: 60px;
+  margin-bottom: 5%;
+}
+
+label {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+textarea {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-bottom: 1.5px solid white;
+  background-color: transparent;
+  width: 40rem;
+  height: 100px;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form button {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  height: 60px;
+  width: 170px;
+  border: none;
+}
+
+form button a {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+
+footer {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer h1 {
+  margin-top: 300px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+footer .footerCtt {
+  font-size: 8px;
+  display: flex;
+  gap: 25px;
+  font-weight: 100;
+  margin-bottom: 30px;
 }
